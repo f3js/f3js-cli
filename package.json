@@ -1,6 +1,6 @@
 {
 	"name": "f3js-cli",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -17,11 +17,15 @@
 	},
 	"homepage": "http://f3js.org/downloads",
 	"dependencies": {
+		"commander": "^2.9.0",
+		"download": "^4.4.3",
 		"es6-promise": "^3.2.1",
+		"home-config": "^0.1.0",
 		"underscore": "^1.8.3",
 		"xhr2": "^0.1.3"
 	},
 	"bin": {
-		"list-projects": "lib/list-projects.js"
+		"f3-users": "lib/users.js",
+		"f3-projects": "lib/projects.js"
 	}
 }
