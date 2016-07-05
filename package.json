@@ -1,6 +1,6 @@
 {
 	"name": "f3js-cli",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -27,5 +27,18 @@
 	"bin": {
 		"f3-users": "lib/users.js",
 		"f3-projects": "lib/projects.js"
+	},
+	"devDependencies": {
+		"grunt": "^0.4.5",
+		"grunt-contrib-clean": "^0.7.0",
+		"grunt-contrib-copy": "^0.8.2",
+		"grunt-contrib-uglify": "^0.11.0",
+		"grunt-contrib-watch": "^0.6.1",
+		"grunt-dts-bundle": "^0.3.0",
+		"grunt-json-replace": "^0.1.2",
+		"grunt-run": "^0.6.0",
+		"grunt-ts": "^5.5.1",
+		"grunt-typedoc": "^0.2.4",
+		"mocha": "^2.5.3"
 	}
 }
