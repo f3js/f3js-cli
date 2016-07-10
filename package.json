@@ -1,6 +1,6 @@
 {
 	"name": "f3js-cli",
-	"version": "0.0.5",
+	"version": "0.1.2",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -21,6 +21,8 @@
 		"download": "^4.4.3",
 		"es6-promise": "^3.2.1",
 		"home-config": "^0.1.0",
+		"scp2": "^0.5.0",
+		"ssh2": "^0.5.0",
 		"underscore": "^1.8.3",
 		"xhr2": "^0.1.3"
 	},
